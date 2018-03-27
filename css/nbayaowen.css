@@ -1,0 +1,14 @@
+.news{
+	width:1200px;
+	margin: 0 auto;
+	padding:80px 20px;
+	font-size: 1.2em;
+}
+#picture img{
+	border: 1px solid grey;
+	padding: 1px;
+	float:left;
+	margin:0 auto;
+	width:600px;
+	height:500px;
+}

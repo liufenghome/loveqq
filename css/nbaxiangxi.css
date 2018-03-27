@@ -1,0 +1,137 @@
+.introduce {
+	margin:2em 0;
+}
+.introduce h3{
+  color: #FFF;
+  padding: 5px 41px 5px 30px;
+  display: inline-block;
+}
+.star h3{
+  color: #FFF;
+  padding: 5px 98px 5px 30px;
+  display: inline-block;
+}
+.introduce_details,.team_details {
+	padding:1.5em 0 0em 2em;
+}
+.introduce_details h4,.team_details h4{
+	color:black;
+	font-weight:600;
+	font-size:1.5em;
+	margin-bottom:6px;
+	font-family: 'Varela Round', sans-serif;
+}
+.introduce_details h4 span,.team_details h4 span{
+	font-size: 0.65em;
+  margin-left: 5px;
+  color:black;
+  font-weight:400;
+}
+.introduce_details h6,.team_details h6{
+	font-weight:400;
+	margin-bottom:1.3em;
+	font-size:0.9em;
+}
+.introduce_details p,.star_info p,.team_details p{
+	color:black;
+	font-weight:300;
+	line-height:1.7em;
+}
+.star{
+	margin:2em 0;
+}
+.star_info {
+	padding:1.5em 0 0 2em;
+}
+.star_list{
+	padding:1.5em 0 0 2em;
+}
+.star1,.star2{
+	 float:left;
+	 width:30%;
+}
+.star1 h4,.star2 h4{
+	color:#333;
+	font-weight:600;
+	margin-bottom:1em;
+	display:inline-block;
+}
+.star1 ul,.star2 ul{
+	padding-left:4em;
+}
+.star1 ul li,.star2 ul li{
+	color:#333;
+}
+.team  h3{
+  background: #999;
+  color: #FFF;
+  padding: 5px 190px 5px 30px;
+  display: inline-block;
+}
+h3.clr1{
+	background:#6ecadc;
+}
+h3.clr2{
+	background:#e9a820;
+}
+h3.clr3{
+	background:#3eb991;
+}
+.star1, .star2 {
+  float: left;
+  width: 50%;
+}
+.star1 ul li,.star2 ul li{
+	font-size:0.85em;
+}
+.star1 h4, .star2 h4 {
+  font-size: 1em;
+}
+.star_list {
+  padding: 0.7em 0 0 2em;
+}
+.details p {
+  font-size: 0.75em;
+}
+.stars {
+  margin: 1em 0;
+}
+.stars h3 {
+  padding: 5px 98px 5px 16px;
+}
+.star1 ul, .star2 ul {
+  padding-left: 2em;
+}
+.star1 ul li, .star2 ul li {
+  font-size: 1em;
+}
+.star_list {
+  padding: 0.5em 0 0 1.5em;
+}
+.team h3 {
+  padding: 5px 190px 5px 16px;
+}
+.star1 h4, .star2 h4 {
+  font-size: 1.5em;
+}
+.star1 ul, .star2 ul {
+  padding-left: 1.5em;
+}
+}
+
+table,tr,td
+  {
+  border: 1px solid blue;
+  }
+#customers
+  {
+  margin: auto;
+  }
+#customers tr.b td
+  {
+  background-color:#A7C942;color:#ffffff;
+  }
+#customers tr.a td 
+    {
+    color:#000000;background-color:#EAF2D3;
+    }

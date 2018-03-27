@@ -1,0 +1,137 @@
+.clearfix:after { 
+	content:"\200B"; 
+	display:block; 
+	height:0; 
+	clear:both; 
+} 
+.clearfix {*zoom:1;}/*IE/7/6*/
+* {
+	/*
+	border:1px solid #000;	
+	*/
+}
+body{
+	font-family: Helvetica, "Microsoft YaHei", "微软雅黑", "Heiti", "黑体", sans-serif;
+	background-color:white;
+}
+#top{
+	width:100%;
+	position:absolute;
+	left:;	
+	top:0;
+	background-color: black;
+}
+#page{
+	width:980px;
+	margin: 0 auto;
+	padding:80px 20px;
+	background-color: #ADD8E6;
+}
+
+
+div {
+    width: 800px;
+    margin: 0 auto;
+}
+section {
+    position: relative;
+    overflow:hidden;
+}
+
+section:before {
+    content: "\273d";
+    text-align: center;
+    line-height: 1;
+    position: absolute;
+    width: 800px;
+    top: 20px;
+}
+
+section:first-child:before {
+    display: none;
+}
+
+h2 {
+    font-family: "Microsoft Yahei", "\5b8b\4f53", Georgia, serif;
+    font-size: 20px;
+    text-shadow: 0 1px 0 #fff;
+    margin: 0 0 0 -30px;
+    padding: 70px 0 0 0;
+    -webkit-transition: margin 300ms ease-in-out;
+    -moz-transition: margin 300ms ease-in-out;
+    -ms-transition: margin 300ms ease-in-out;
+    -o-transition: margin 300ms ease-in-out;
+    transition: margin 300ms ease-in-out;
+}
+
+.desktop h2:hover {
+    color: #369;
+    cursor: pointer;
+}
+
+.nojs h2,
+section:target h2 {
+    margin: 0;
+}
+
+.nojs section:first-child h2 {
+    padding: 30px 0 0 0;
+}
+
+h2:before {
+    content: "\21e8";
+    text-align: center;
+    width: 30px;
+    height: auto;
+    display: inline-block;
+}
+#personal ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#personal  li{
+	padding: 0.25em;
+	background: url("../images/ll.png") no-repeat left center;
+	padding-left:25px;
+
+}
+#personal ul span.header{
+	margin-right: 0.5em;
+	font-weight: bold;
+}
+#like ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#like  li{
+	padding: 0.25em;
+	background: url("../images/xx.png") no-repeat left center;
+	padding-left:25px;
+
+}
+#like ul span.header{
+	margin-right: 0.5em;
+	font-weight: bold;
+}
+#picture img{
+	border: 1px solid grey;
+	padding: 1px;
+	float:right;
+	margin:0 20px;
+	width:200px;
+	height: 200px;
+}
+#customers
+  {
+  margin: auto;
+  }
+#customers tr.b td
+  {
+  background-color:#A7C942;color:#ffffff;
+  }
+#customers tr.a td 
+    {
+    color:#000000;background-color:#EAF2D3;
+    }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的个人兴趣网站</title>
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/diaocha.css" />
+</head>
+<style>
+	.sidebar h1,h2,h3,h4{color: #fff;}
+	.sidebar a{
+		text-decoration: none;
+		color: black;
+	}
+	.sidebar a:hover{
+		text-decoration: underline;
+	}
+</style>
+<body>
+	<nav style="width: 100%;height: 50px;display: block;">
+	    <ul class="clearfix">
+              <li> <a href="nbaxiangxi.html">详细介绍</a></li>
+              <li> <a href="diaocha.html">问卷调查</a></li>
+              <li> <a href="demo.html">详细要问</a></li>
+              <li> <a href="me.html">关于制作者</a></li>
+              <li> <a href="index.html">主页</a></li>
+           </ul>
+	</nav>
+	<div class="sidebar" style="width: 15%;height:1500px;background: #0080FF;float: left;">
+		<div class="sidebar-top" style="width: 80%;height:600px;margin: 0 auto; ">
+			<h1>NBA</h1>
+			<img src="images/nba.jpg" alt="" width="150" height="150">
+			<h4>全称</h4>
+			<span style="display: block; margin-bottom: 20px;">美国男子职业联赛</span>
+			<span style="display: block;">（National Basketball Association）</span>
+			<h4>中文网站</h4>
+			<a href="http://china.nba.com/">NBA中文网</a>
+			<h4>举办地点</h4>
+			<span>美国、加拿大</span>
+		</div>
+	</div>
+<div class="container" style="width: 85%;height: 1500px;background:grey;float:left;">
+       <div class="biaodan">
+       <h2>请大家递上一份宝贵的答复,不胜感激</h2>
+       <form>
+       <h3>1、请选择你在球场上善打的位置</h3>
+       <input type="radio" name="position" value="Center" checked>Center（中锋）
+       <br>
+       <input type="radio" name="position" value="Power Forword">Power Forword（大前锋）
+       <br>
+       <input type="radio" name="position" value="Small Forword" checked>Small Forword（小前锋）
+       <br>
+       <input type="radio" name="position" value="Shooting Guard">Shooting Guard（得分后卫）
+       <br>
+       <input type="radio" name="position" value="Point Guard">Point Guard（控球后卫）
+       </form>
+       <h3>2、请输入你的球龄</h3>
+       <form action="/demo/demo_form.asp">
+       请选择：
+       <input type="number" name="ball age" min="1" max="5">
+       <input type="submit" value="请确认" />
+       </form>
+       <h3>3、请选择你喜欢的打球风格</h3>
+       <form action="/demo/demo_form.asp">
+       <select name="style">
+       <option value="volvo">活力四射型</option>
+       <option value="saab">敏锐机智型</option>
+       <option value="fiat">关键稳重型</option>
+       <option value="audi">风骚华丽型</option>
+       </select>
+       <br><br>
+       <input type="submit" value="请确认" />
+       </form>
+       <h3>4、请输入你最喜欢的球星</h3>
+       <form action="/demo/demo_form.asp">
+       First name:<br>
+       <input type="text" name="firstname">
+       <br>
+       Last name:<br>
+       <input type="text" name="lastname">
+       <br><br>
+       <input type="submit" value="请确认" />
+       </form>
+       <h3>5、你喜欢目前联盟的小球风格吗</h3>
+       <form action="/demo/demo_form.asp">
+       <input type="radio" name="style" value="like" checked>喜欢
+       <br>
+       <input type="radio" name="style" value="dislike">不喜欢
+       <br><br>
+       <input type="submit" value="请确认" />
+       </form>
+       <h3>5、如果可以你希望哪些人做你的队友</h3>
+       <form>
+       <input type="checkbox" name="vehicle" value="Bike">全能皇帝詹姆斯
+       <br>
+       <input type="checkbox" name="vehicle" value="Car">小飞侠科比
+       <br> 
+       <input type="checkbox" name="vehicle" value="Bike">飞人乔丹
+       <br>
+       <input type="checkbox" name="vehicle" value="Car">大鲨鱼奥尼尔
+       <br>
+       <input type="checkbox" name="vehicle" value="Car">篮球皇帝张伯伦
+       </form>
+       <h3>6、请选择你的幸运颜色</h3>
+       <form action="action_page.php">
+       选择:
+       <input type="color" name="favcolor" value="#ff0000">
+       <input type="submit">
+       </form>
+       <input type="email" name="email">
+       <input type="submit" value="请确认" />
+       </form>
+       <h3>7、若可以请上传关于篮球记忆的一张的图片</h3>
+       <form action="/example/html5/demo_form.asp" method="get">
+       选择图片：<input type="file" name="img" multiple="multiple" />
+       <input type="submit" />
+       </form>
+       <h3>8、留言簿</h3>
+       <form name="form2" action="mailto:fyy0528@sina.com" method="post" enctype="text/plain" >
+       <table width="50%" border="1" bordercolorlight="#000000" bordercolordark="#FFFFFF"bgcolor="#CCFFCC" cellpadding="4" align="left">
+       <tr>
+       <td colspan="2"> <div align="center"><b>留 言 簿</b></div> </td>
+       </tr>
+       <tr>
+       <td>昵称： <input type="text" name="textfield" size="8"> </td>
+       <td>E_mail: <input type="text" name="textfield2" size="10" maxlength="20"> </td>
+       </tr>
+       <tr>
+       <td colspan="2"> <div align="center">留 言<br> <textarea name="textfield3" cols="30" rows="3"></textarea>
+       </div>
+       </td>
+       </tr>
+       <tr>
+       <td> <div align="right"> <input type="submit" name="Submit" value="提 交"> </div> </td>
+       <td> <input type="reset" name="Submit2" value="重 写"> </td>
+       </tr>
+       </table>
+       </form>
+       <div class="tijiao">
+       <h3>提交</h3>
+       <button type="button" onclick="alert('提交成功')">点击!</button>
+       </div>
+</div>
+</body>
+<footer>
+</footer>
+</html>
